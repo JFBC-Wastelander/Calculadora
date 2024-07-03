@@ -58,7 +58,7 @@ while (true) {
   ) {
     let valor1 = +prompt("Informe o primeiro valor: ");
     let valor2 = +prompt("Informe o segundo valor: ");
-    if (!isNaN(valor1)&& !isNaN(valor2)) {
+    if (!isNaN(valor1) && !isNaN(valor2)) {
       let res = calculos.divisao(valor1, valor2);
       console.log(res);
     } else {
@@ -74,7 +74,7 @@ while (true) {
     }
   } else if (input === "Sair".toLowerCase() || input == 6) {
     console.log("Encerrando...");
-    process.exit()
+    process.exit();
   } else {
     console.log("Não entendi... Você digitou certo?\n");
   }
